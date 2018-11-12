@@ -1,0 +1,37 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>business login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+         
+          <ion-list text-center>
+
+            <ion-item>
+              <ion-label floating>Username</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input type="password"></ion-input>
+            </ion-item>
+            <br>
+
+            <button ion-button round (click)="navCtrl.push('CustomerloginPage')">LOGIN</button>
+
+          </ion-list>
+          <ion-label text-center style="color: #585656">Don't have an account? Sign Up<br> through our website<a  style="color: #585656" block  href='http://www.yashgoa.com'><b> www.yashgoa.com</b></a></ion-label>
+
+
+</ion-content>
+
+<!--ion-footer>
+    <ion-toolbar>
+      <ion-title><p text-center style="color: #585656">Copyright © All Rights Reserved 2018<br><a style="text-decoration: none;" href='http://www.yashgoa.com'>YASH GROUP</a> <br>Delivering Success</p></ion-title>
+    </ion-toolbar>
+</ion-footer-->
