@@ -3,7 +3,7 @@
   <ion-slides pager>
     <ion-slide [ngStyle]="{'background-color':slide.color}" *ngFor="let slide of slides">
          <ion-buttons end>
-          <button  ion-button clear (click)='ss()' style="color:white" class="welcomeheaderfont">Skip</button>
+          <button  ion-button clear (click)='ss()' style="color:white; font-size: 3vw;" class="welcomeheaderfont">Skip</button>
         </ion-buttons>
        <img [src]="slide.image" class="slide-image"/>
       <h2 style="color:white" class="slide-title welcomeheaderfont" [innerHTML]="slide.title"></h2>
@@ -11,9 +11,11 @@
       <a href='http://www.yashgoa.com' style="text-decoration: none; color:white;" class="welcomeheaderfont" [innerHTML]="slide.link"></a>
     </ion-slide>
     <ion-slide style="background: #986788">
-      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
+      <br><br>
+      <img src="assets/imgs/Rocket-icon.png" class="slide-image"/>
       <h2 class="slide-title welcomeheaderfont" style="color:white">Lets get started!</h2>
-      <button ion-button round color="light" (click)='ss()' class="welcomeheaderfont">
+      <br>
+      <button ion-button round color="light" (click)='ss()' style="font-size:4vw;" class="welcomeheaderfont">
         GET STARTED !
       </button>
     </ion-slide>
